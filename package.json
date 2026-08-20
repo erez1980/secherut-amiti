@@ -2,12 +2,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "vitest run"
   },
   "dependencies": {
     "next": "15.5.23",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
 }
